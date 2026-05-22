@@ -1,15 +1,15 @@
 import Link from 'next/link';
+import SubstackEmbed from '@/components/SubstackEmbed';
 
 const sampleArticles = [
   { slug: 'masa-depan-ai-2026', title: 'Masa Depan AI di 2026', category: 'TECH', date: '22 MEI 2026', excerpt: 'Bagaimana model AI generasi baru mengubah cara kita bekerja, berkarya, dan berbisnis.' },
-  { slug: 'sinyal-terakhir-komik', title: 'Sinyal Terakhir', category: 'KOMIK', date: '21 MEI 2026', excerpt: 'Banda Aceh 2041. RLY-77, sistem AI yang memilih tetap menyiarkan hingga menara runtuh.' },
-  { slug: 'game-concept-9', title: 'Game #9: Indie Survival Concept', category: 'GAME', date: '22 MEI 2026', excerpt: 'Konsep game survival baru dengan mekanik unik yang belum pernah ada.' },
+  { slug: 'sinyal-terakhir', title: 'Sinyal Terakhir', category: 'KOMIK', date: '21 MEI 2026', excerpt: 'Banda Aceh 2041. RLY-77, sistem AI yang memilih tetap menyiarkan hingga menara runtuh.' },
+  { slug: 'sinyal-survival-radio', title: 'Sinyal: Survival Radio Operator', category: 'GAME', date: '22 MEI 2026', excerpt: 'Game survival narrative-driven. Player jadi radio operator dalam krisis bencana.' },
 ];
 
 export default function Home() {
   return (
     <main className="relative z-10 min-h-screen">
-      {/* Top ticker */}
       <div className="border-b border-ink/20 bg-ink text-paper overflow-hidden">
         <div className="flex marquee whitespace-nowrap py-2 mono text-xs uppercase tracking-widest">
           {[...Array(2)].map((_, i) => (
@@ -25,14 +25,13 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Header */}
       <header className="border-b border-ink/20 px-6 py-5 md:px-12">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between flex-wrap gap-4">
           <Link href="/" className="flex items-baseline gap-3">
             <span className="serif text-3xl font-bold tracking-tight">Nagrog</span>
             <span className="mono text-[10px] uppercase tracking-[0.2em] text-muted">Corp · Est. 2026</span>
           </Link>
-          <nav className="hidden md:flex items-center gap-8 mono text-xs uppercase tracking-widest">
+          <nav className="flex items-center gap-6 mono text-xs uppercase tracking-widest flex-wrap">
             <Link href="/articles" className="link-underline">Articles</Link>
             <Link href="/magazine" className="link-underline">Magazine</Link>
             <Link href="/comics" className="link-underline">Comics</Link>
@@ -42,7 +41,6 @@ export default function Home() {
         </div>
       </header>
 
-      {/* Hero */}
       <section className="relative px-6 py-16 md:px-12 md:py-24 fade-up">
         <div className="grid md:grid-cols-12 gap-8 items-end">
           <div className="md:col-span-8">
@@ -66,7 +64,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Stats bar */}
       <section className="border-y border-ink/20 bg-ink text-paper">
         <div className="grid grid-cols-2 md:grid-cols-4 divide-x divide-paper/20">
           {[
@@ -83,7 +80,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Latest content */}
       <section className="px-6 py-16 md:px-12 md:py-24">
         <div className="flex items-end justify-between mb-12 border-b-2 border-ink pb-6">
           <h2 className="serif text-4xl md:text-6xl font-bold">Latest Drop</h2>
@@ -94,7 +90,7 @@ export default function Home() {
           {sampleArticles.map((a, i) => (
             <Link
               key={a.slug}
-              href={`/articles/${a.slug}`}
+              href={a.category === 'KOMIK' ? `/comics/${a.slug}` : a.category === 'GAME' ? `/games/${a.slug}` : `/articles/${a.slug}`}
               className="group block bg-paper p-8 hover:bg-ink hover:text-paper transition-colors duration-300 fade-up"
               style={{animationDelay: `${i * 0.1}s`}}
             >
@@ -116,33 +112,26 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Newsletter CTA */}
       <section className="bg-accent text-ink px-6 py-20 md:px-12 md:py-32">
-        <div className="max-w-3xl">
-          <p className="mono text-xs uppercase tracking-[0.3em] mb-6">DAILY · GRATIS · TIDAK PERNAH SPAM</p>
-          <h2 className="serif text-5xl md:text-7xl font-bold leading-[0.95] mb-8">
-            Newsletter harian<br/>dari AI editor kami.
-          </h2>
-          <p className="serif text-xl mb-10 max-w-xl">
-            Setiap pagi: highlight artikel, insight unik, dan resource eksklusif — dikurasi otomatis dari magazine Nagrog.
-          </p>
-          <form className="flex flex-col sm:flex-row gap-3 max-w-xl">
-            <input
-              type="email"
-              placeholder="alamat@email.com"
-              className="flex-1 px-5 py-4 bg-paper border-2 border-ink serif text-lg focus:outline-none focus:ring-2 focus:ring-ink"
-            />
-            <button className="px-8 py-4 bg-ink text-paper mono text-xs uppercase tracking-widest hover:bg-paper hover:text-ink border-2 border-ink transition-colors">
-              Subscribe
-            </button>
-          </form>
-          <p className="mt-4 mono text-[10px] uppercase tracking-widest text-ink/60">
-            Bergabung dengan 0 pembaca · Tidak ada spam · Unsubscribe kapan saja
-          </p>
+        <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+          <div>
+            <p className="mono text-xs uppercase tracking-[0.3em] mb-6">DAILY · GRATIS · TIDAK PERNAH SPAM</p>
+            <h2 className="serif text-5xl md:text-7xl font-bold leading-[0.95] mb-8">
+              Newsletter harian dari AI editor kami.
+            </h2>
+            <p className="serif text-xl mb-6">
+              Setiap pagi: highlight artikel, insight unik, dan resource eksklusif — dikurasi otomatis dari magazine Nagrog.
+            </p>
+            <Link href="/newsletter" className="mono text-xs uppercase tracking-widest link-underline">
+              Pelajari lebih lanjut →
+            </Link>
+          </div>
+          <div className="flex justify-center md:justify-end">
+            <SubstackEmbed width={480} height={320} className="shadow-2xl" />
+          </div>
         </div>
       </section>
 
-      {/* Manifesto */}
       <section className="border-t border-ink/20 px-6 py-16 md:px-12 md:py-24">
         <div className="grid md:grid-cols-12 gap-8">
           <p className="md:col-span-3 mono text-xs uppercase tracking-[0.3em] text-accent">
@@ -163,7 +152,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="border-t-2 border-ink bg-ink text-paper px-6 py-12 md:px-12">
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div>
@@ -182,19 +170,18 @@ export default function Home() {
             </ul>
           </div>
           <div>
+            <h4 className="mono text-[10px] uppercase tracking-widest text-paper/40 mb-3">Subscribe</h4>
+            <ul className="space-y-2 serif">
+              <li><Link href="/newsletter" className="link-underline">Newsletter (gratis)</Link></li>
+              <li><a href="https://nagrog.substack.com" className="link-underline" target="_blank" rel="noopener noreferrer">Baca di Substack</a></li>
+            </ul>
+          </div>
+          <div>
             <h4 className="mono text-[10px] uppercase tracking-widest text-paper/40 mb-3">Company</h4>
             <ul className="space-y-2 serif">
               <li><Link href="/about" className="link-underline">About</Link></li>
               <li><Link href="/manifesto" className="link-underline">Manifesto</Link></li>
               <li><Link href="/transparency" className="link-underline">AI Transparency</Link></li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="mono text-[10px] uppercase tracking-widest text-paper/40 mb-3">Connect</h4>
-            <ul className="space-y-2 serif">
-              <li><Link href="/newsletter" className="link-underline">Newsletter</Link></li>
-              <li><Link href="https://twitter.com/nagrog" className="link-underline">Twitter</Link></li>
-              <li><Link href="/contact" className="link-underline">Contact</Link></li>
             </ul>
           </div>
         </div>
