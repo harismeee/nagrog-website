@@ -22,6 +22,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       type: 'article',
       publishedTime: article.date,
     },
+    twitter: {
+      card: 'summary_large_image',
+      title: article.metaTitle || article.title,
+      description: article.metaDescription || article.excerpt,
+      images: ['https://nagrog-website.vercel.app/og-image.png'],
+    },
   };
 }
 
