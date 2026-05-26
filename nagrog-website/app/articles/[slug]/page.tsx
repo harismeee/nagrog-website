@@ -1,4 +1,4 @@
-import { getArticleBySlug, getAllArticleSlugs } from '@/lib/articles';
+﻿import { getArticleBySlug, getAllArticleSlugs } from '@/lib/articles';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
@@ -36,21 +36,45 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const article = await getArticleBySlug(slug);
   if (!article) notFound();
 
-  const jsonLd = {
+  const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: article.title,
     description: article.excerpt,
+    image: 'https://nagrog-website.vercel.app/og-image.png',
     datePublished: article.date,
-    author: { '@type': 'Organization', name: 'Nagrog Corp' },
-    publisher: { '@type': 'Organization', name: 'Nagrog Corp' },
+    dateModified: article.date,
+    author: { '@type': 'Organization', name: 'Nagrog Corp AI Editorial' },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Nagrog Corp',
+      logo: { '@type': 'ImageObject', url: 'https://nagrog-website.vercel.app/logo.png' },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://nagrog-website.vercel.app/articles/${slug}`,
+    },
+  };
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://nagrog-website.vercel.app' },
+      { '@type': 'ListItem', position: 2, name: 'Articles', item: 'https://nagrog-website.vercel.app/articles' },
+      { '@type': 'ListItem', position: 3, name: article.title },
+    ],
   };
 
   return (
     <main className="relative z-10 min-h-screen">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
       <header className="border-b border-ink/20 px-6 py-5 md:px-12">
