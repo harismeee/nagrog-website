@@ -1,10 +1,3 @@
-/**
- * Substack Embed Form — Nagrog Daily Newsletter
- *
- * Embed code dari https://nagrog.substack.com
- * Width 480, height 320 (asli dari Substack)
- * Bisa di-tweak responsive di parent container
- */
 export default function SubstackEmbed({
   width = 480,
   height = 320,
