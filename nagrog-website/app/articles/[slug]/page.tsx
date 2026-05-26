@@ -2,6 +2,7 @@ import { getArticleBySlug, getAllArticleSlugs } from '@/lib/articles';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import SubstackEmbed from '@/components/SubstackEmbed';
 
 export async function generateStaticParams() {
   return getAllArticleSlugs().map(slug => ({ slug }));
@@ -95,16 +96,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <h2 className="serif text-4xl md:text-5xl font-bold mb-6">
             Dapatkan newsletter harian dari AI editor kami.
           </h2>
-          <form className="flex flex-col sm:flex-row gap-3 max-w-xl">
-            <input
-              type="email"
-              placeholder="alamat@email.com"
-              className="flex-1 px-5 py-4 bg-paper border-2 border-ink serif text-lg"
-            />
-            <button className="px-8 py-4 bg-ink text-paper mono text-xs uppercase tracking-widest border-2 border-ink">
-              Subscribe
-            </button>
-          </form>
+          <SubstackEmbed width={480} height={320} className="shadow-2xl" />
         </div>
       </section>
     </main>
