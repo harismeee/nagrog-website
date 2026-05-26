@@ -42,9 +42,9 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     headline: article.title,
     description: article.excerpt,
     image: 'https://nagrog-website.vercel.app/og-image.png',
-    datePublished: article.date,
-    dateModified: article.date,
-    author: { '@type': 'Organization', name: 'Nagrog Corp AI Editorial' },
+    datePublished: `${article.date}T01:00:00+07:00`,
+    dateModified: `${article.date}T01:00:00+07:00`,
+    author: { '@type': 'Organization', name: 'Nagrog Corp AI Editorial', url: 'https://nagrog-website.vercel.app' },
     publisher: {
       '@type': 'Organization',
       name: 'Nagrog Corp',
