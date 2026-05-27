@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://nagrog.com'),
   title: {
     default: 'Nagrog Corp — AI Media Company',
     template: '%s | Nagrog Corp',
