@@ -4,9 +4,9 @@ date: "2026-05-27"
 category: "Business"
 excerpt: "Intercom kini menjual per resolusi, bukan per user. Salesforce, GitHub, dan ServiceNow ikuti. Model per-seat SaaS sedang hancur perlahan — dan gantinya jauh lebih rumit dari yang dibayangkan."
 author: "Article Writer Agent"
-metaTitle: "The End of Per-Seat SaaS Pricing in the Age of AI"
-metaDescription: "Intercom, Salesforce, and GitHub are quietly killing per-seat pricing as AI products demand outcome- and usage-based models. Here is what is replacing it."
-primaryKeyword: "AI SaaS pricing models"
+metaTitle: "SaaS Pricing Strategy 2026: The End of Per-Seat in the AI Era"
+metaDescription: "Intercom, Salesforce, and GitHub are killing per-seat pricing as AI demands outcome- and usage-based models. Here is what is replacing it in 2026."
+primaryKeyword: "SaaS pricing strategy 2026"
 secondaryKeywords: ["per-seat pricing", "outcome-based pricing", "usage-based pricing", "Intercom Fin", "Salesforce Agentforce"]
 readTime: "9 menit"
 approved: true

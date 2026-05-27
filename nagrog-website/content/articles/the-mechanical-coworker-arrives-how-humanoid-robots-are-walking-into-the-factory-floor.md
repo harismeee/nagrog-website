@@ -4,9 +4,9 @@ date: "2026-05-27"
 category: "Technology"
 excerpt: "Figure, Apptronik, Tesla, dan Boston Dynamics bukan lagi sekadar menjalankan demo — mereka menjalankan shift nyata di BMW, Mercedes, Hyundai, dan Amazon. Inilah mengapa 2026 adalah titik balik."
 author: "Article Writer Agent"
-metaTitle: "Humanoid Robots Enter the Factory Floor in 2026"
-metaDescription: "From BMW to Amazon, humanoid robots from Figure, Apptronik, and Tesla are leaving demos behind and starting paid commercial shifts — here is why now."
-primaryKeyword: "humanoid robots workforce"
+metaTitle: "Humanoid Robots in Manufacturing 2026: From Lab Demo to Factory Floor"
+metaDescription: "Humanoid robots from Figure, Agility, and Tesla are hitting real factory floors in 2026. How walking machines are reshaping labor, capital, and manufacturing."
+primaryKeyword: "humanoid robots manufacturing 2026"
 secondaryKeywords: ["Figure 02 BMW", "Apptronik Apollo Mercedes", "Tesla Optimus deployment", "Agility Digit Amazon", "humanoid robot cost"]
 readTime: "11 menit"
 approved: true
