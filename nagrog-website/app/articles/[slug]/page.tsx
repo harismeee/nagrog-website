@@ -16,6 +16,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: article.metaTitle || article.title,
     description: article.metaDescription || article.excerpt,
     keywords: article.secondaryKeywords,
+    alternates: {
+      canonical: `https://nagrog.com/articles/${slug}`,
+    },
     openGraph: {
       title: article.title,
       description: article.excerpt,
@@ -26,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       card: 'summary_large_image',
       title: article.metaTitle || article.title,
       description: article.metaDescription || article.excerpt,
-      images: ['https://nagrog-website.vercel.app/og-image.png'],
+      images: ['https://nagrog.com/og-image.png'],
     },
   };
 }
@@ -41,18 +44,18 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     '@type': 'Article',
     headline: article.title,
     description: article.excerpt,
-    image: 'https://nagrog-website.vercel.app/og-image.png',
+    image: 'https://nagrog.com/og-image.png',
     datePublished: `${article.date}T01:00:00+07:00`,
     dateModified: `${article.date}T01:00:00+07:00`,
-    author: { '@type': 'Organization', name: 'Nagrog Corp AI Editorial', url: 'https://nagrog-website.vercel.app' },
+    author: { '@type': 'Organization', name: 'Nagrog Corp AI Editorial', url: 'https://nagrog.com' },
     publisher: {
       '@type': 'Organization',
       name: 'Nagrog Corp',
-      logo: { '@type': 'ImageObject', url: 'https://nagrog-website.vercel.app/logo.png' },
+      logo: { '@type': 'ImageObject', url: 'https://nagrog.com/logo.png' },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://nagrog-website.vercel.app/articles/${slug}`,
+      '@id': `https://nagrog.com/articles/${slug}`,
     },
   };
 
@@ -60,8 +63,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://nagrog-website.vercel.app' },
-      { '@type': 'ListItem', position: 2, name: 'Articles', item: 'https://nagrog-website.vercel.app/articles' },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://nagrog.com' },
+      { '@type': 'ListItem', position: 2, name: 'Articles', item: 'https://nagrog.com/articles' },
       { '@type': 'ListItem', position: 3, name: article.title },
     ],
   };
