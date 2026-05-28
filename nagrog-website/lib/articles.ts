@@ -6,6 +6,11 @@ import html from 'remark-html';
 
 const articlesDirectory = path.join(process.cwd(), 'content/articles');
 
+export interface FaqItem {
+  question: string;
+  answer: string;
+}
+
 export interface ArticleFrontmatter {
   title: string;
   date: string;
@@ -18,6 +23,10 @@ export interface ArticleFrontmatter {
   secondaryKeywords?: string[];
   readTime?: string;
   approved?: boolean;
+  affiliateDisclosure?: boolean;
+  tags?: string[];
+  score?: number;
+  faq?: FaqItem[];
 }
 
 export interface Article extends ArticleFrontmatter {

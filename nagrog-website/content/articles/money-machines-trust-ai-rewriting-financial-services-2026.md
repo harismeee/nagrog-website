@@ -66,3 +66,11 @@ For consumers navigating this competitive landscape, the practical implications 
 > - **Kursus AI in Finance:** [AI & Machine Learning for Finance di Udemy](https://www.udemy.com/topic/finance/?utm_source=nagrog&utm_medium=article&utm_campaign=ai-finance-2026)
 > - **Buku Rekomendasi:** [*The Age of Surveillance Capitalism* di Tokopedia](https://www.tokopedia.com/search?st=product&q=age+of+surveillance+capitalism&utm_source=nagrog&utm_medium=article&utm_campaign=ai-finance-2026) — konteks kritis adopsi AI di industri keuangan
 > - **Buku Praktis:** [*Prediction Machines* (Agrawal et al.) di Amazon](https://www.amazon.com/dp/1633695670?tag=nagrog-20&utm_source=nagrog&utm_medium=article&utm_campaign=ai-finance-2026) — framework ekonomi AI untuk bisnis
+
+
+---
+
+## Related Articles
+
+- [Literasi Finansial Indonesia: Cara Gen Z Kelola Uang & Investasi](/articles/literasi-finansial-di-era-digital-bagaimana-generasi-muda-indonesia-belajar-mengelola-uang-lewat-konten-dan-aplikasi) — how digital platforms are democratizing financial knowledge for Indonesian young adults
+- [UMKM Digital Indonesia 2026](/articles/umkm-goes-digital-indonesia-small-business-digital-economy) — how AI and fintech are enabling 65 million small businesses to access credit and grow

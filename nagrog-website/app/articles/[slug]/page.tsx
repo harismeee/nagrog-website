@@ -66,6 +66,16 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     ],
   };
 
+  const faqSchema = article.faq && article.faq.length > 0 ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: article.faq.map(item => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: { '@type': 'Answer', text: item.answer },
+    })),
+  } : null;
+
   return (
     <main className="relative z-10 min-h-screen">
       <script
@@ -76,6 +86,12 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       <header className="border-b border-ink/20 px-6 py-5 md:px-12">
         <div className="flex items-center justify-between">
