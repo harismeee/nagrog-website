@@ -49,6 +49,16 @@ The investment platforms that have scaled alongside this creator ecosystem have 
 
 Bagi yang ingin langsung mencoba, [Bibit](https://bibit.id/?utm_source=nagrog&utm_medium=article&utm_campaign=literasi-finansial) menawarkan onboarding berbasis tujuan keuangan yang memandu investor pemula. [Ajaib](https://ajaib.co.id/?utm_source=nagrog&utm_medium=article&utm_campaign=literasi-finansial) cocok untuk pemula saham dengan modal mulai Rp 100.000.
 
+**Perbandingan Platform Investasi Terpopuler Indonesia:**
+
+| Platform | Produk Unggulan | Min. Investasi | Biaya | Cocok Untuk |
+|---|---|---|---|---|
+| [Bibit](https://bibit.id/?ref=nagrog&utm_source=nagrog&utm_medium=article&utm_campaign=literasi-finansial) | Reksa Dana (kurasi AI) | Rp 10.000 | 0% beli | Pemula yang mau simple |
+| [Ajaib](https://ajaib.co.id/?ref=nagrog&utm_source=nagrog&utm_medium=article&utm_campaign=literasi-finansial) | Saham + Reksa Dana | Rp 100.000 | 0.1% saham | Yang mau saham juga |
+| [Pluang](https://pluang.com/?utm_source=nagrog&utm_medium=article&utm_campaign=literasi-finansial) | Emas Digital + Kripto | Rp 5.000 | 0.5% | Diversifikasi aset alternatif |
+
+> **Top Pick:** Mulai dengan [Bibit](https://bibit.id/?ref=nagrog&utm_source=nagrog&utm_medium=article&utm_campaign=literasi-finansial) untuk reksa dana — antarmuka paling ramah pemula, sudah dipakai 10+ juta pengguna Indonesia.
+
 ## Apps, Robo-Advisors, and the Democratization of Investing
 
 Beyond content consumption, the technological infrastructure available to young Indonesian investors has transformed in ways that lower barriers to participation that historically kept retail investing inaccessible. Until roughly 2018, buying shares on the Indonesia Stock Exchange (IDX) required a brokerage account with a minimum deposit of typically Rp 5Ã¢â‚¬â€œ10 million (approximately USD 310Ã¢â‚¬â€œ620), a paper-based account opening process, and a user interface designed for professional traders. Today, apps like Stockbit, Ajaib, and IPOT (Indo Premier Online Technology) allow account opening in under 10 minutes via smartphone, support minimum investments of Rp 100,000 (less than USD 7), and have redesigned the investing experience around simplicity and social features.

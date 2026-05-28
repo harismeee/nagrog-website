@@ -60,6 +60,17 @@ Untuk UMKM yang baru memulai digitalisasi pembukuan, [Mekari Jurnal](https://jur
 
 UMKM yang ingin membangun toko online mandiri di luar marketplace bisa memulai dengan paket hosting dari [Niagahoster](https://www.niagahoster.co.id/?utm_source=nagrog&utm_medium=article&utm_campaign=umkm-digital-2026) atau [IDCloudhost](https://idcloudhost.com/?utm_source=nagrog&utm_medium=article&utm_campaign=umkm-digital-2026) — keduanya menawarkan paket khusus UMKM dengan support Bahasa Indonesia dan domain mulai Rp 20rb/bulan.
 
+**Perbandingan Tools Digitalisasi UMKM:**
+
+| Tool | Fungsi | Harga Mulai | Platform | Rekomendasi |
+|---|---|---|---|---|
+| [Mekari Jurnal](https://www.jurnal.id/?utm_source=nagrog&utm_medium=article&utm_campaign=umkm-digital-2026) | Akuntansi cloud + invoice | Rp 199k/bln | Web/Mobile | **Paling lengkap** |
+| [Kasir Android](https://shopee.co.id/search?keyword=mesin+kasir+android+umkm+touchscreen&utm_source=nagrog&utm_medium=article&utm_campaign=umkm-digital-2026) | POS toko fisik | Rp 300k–2jt | Hardware/App | **Paling terjangkau** |
+| [Kasir Hardware Lengkap](https://www.blibli.com/search?q=mesin+kasir+android+UMKM+resmi&utm_source=nagrog&utm_medium=article&utm_campaign=umkm-digital-2026) | POS + printer struk | Rp 1–3jt | Hardware | **Garansi resmi** |
+| [Printer Struk Bluetooth](https://www.bukalapak.com/products?search%5Bkeywords%5D=printer+struk+bluetooth+kasir+umkm&utm_source=nagrog&utm_medium=article&utm_campaign=umkm-digital-2026) | Aksesori kasir | Rp 150–400k | Hardware | **Harga bersaing** |
+
+> **Mulai dari sini:** UMKM baru → kasir Android (Shopee, Rp 300k). Sudah 3+ karyawan → [Mekari Jurnal](https://www.jurnal.id/?utm_source=nagrog&utm_medium=article&utm_campaign=umkm-digital-2026) untuk akuntansi proper.
+
 ## Infrastructure, Trust, and the Limits of Digital Onboarding
 
 The optimism surrounding Indonesia's UMKM digital transformation is warranted by the scale of what has been achieved, but a clear-eyed assessment requires engaging with the structural barriers that continue to limit both the pace and depth of adoption. The most significant is uneven infrastructure. National internet penetration reached approximately 67 percent in 2024 per We Are Social's Global Digital Report, but this figure masks profound geographic inequality. Java and Bali, which together hold roughly 55 percent of Indonesia's population, have internet penetration rates above 80 percent. Kalimantan, Sulawesi, Papua, and Maluku have rates ranging from 45 to 60 percent, with significant intra-province variation between urban centers and rural hinterlands. UMKM in the archipelago's outer islands face connectivity constraints that make even basic digital payment acceptance inconsistent.
