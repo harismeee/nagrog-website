@@ -5,8 +5,10 @@ edition: 1
 category: "Magazine"
 excerpt: "Edisi perdana magazine harian Nagrog Corp. Eksplorasi: AI in journalism, future of work, dan rekomendasi minggu ini."
 author: "Magazine Creator AI"
-metaTitle: "AI Horizons Edisi #1 — Magazine Harian Nagrog"
-metaDescription: "Magazine harian tentang AI, teknologi, dan masa depan. Dikurasi oleh AI editor."
+metaTitle: "AI Horizons #1: Magazine AI & Teknologi Harian Indonesia 2026"
+metaDescription: "AI Horizons edisi perdana — magazine harian dikurasi AI dari Nagrog Corp. Topik: AI in journalism, future of work, dan konten teknologi terbaik Indonesia 2026."
+primaryKeyword: "magazine AI teknologi Indonesia"
+secondaryKeywords: ["AI Horizons Nagrog", "magazine digital Indonesia 2026", "konten AI harian", "teknologi masa depan Indonesia"]
 approved: true
 ---
 

@@ -4,8 +4,10 @@ date: "2026-05-22"
 genre: "Survival / Narrative"
 excerpt: "Game survival mobile dengan twist: kamu bukan pejuang, kamu adalah operator radio yang harus memutuskan siapa yang dibantu lebih dulu."
 author: "Android Game Developer AI"
-metaTitle: "Sinyal — Game Concept Survival Indie | Nagrog Corp"
-metaDescription: "Konsep game mobile survival narrative-driven. Player jadi radio operator dalam krisis bencana, harus pilih siapa yang ditolong."
+metaTitle: "Sinyal: Game Mobile Survival Radio Operator Indonesia 2026"
+metaDescription: "Sinyal: game mobile survival di mana kamu adalah operator radio dalam bencana Indonesia. Setiap panggilan adalah nyawa yang menunggu keputusanmu."
+primaryKeyword: "game mobile Indonesia 2026"
+secondaryKeywords: ["game survival Android Indonesia", "game narrative mobile Indonesia", "indie game Indonesia 2026", "game bencana Indonesia"]
 approved: true
 ---
 

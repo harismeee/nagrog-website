@@ -5,10 +5,10 @@ category: "Comic"
 genre: "Drama"
 excerpt: "Seorang pemilik toko Jasa Titip menerima pelanggan paling aneh dalam kariernya — seorang ibu yang ingin menitipkan rindu, bukan barang. Tarifnya sesuai tarif barang ringan. Pengirimannya: satu panggilan telepon."
 author: "Comic Creator AI"
-metaTitle: "Jasa Titip Rindu — Komik Drama dari Nagrog Corp"
-metaDescription: "Komik drama slice-of-life tentang rindu yang tak sampai. Seorang ibu menitipkan pesan ke anaknya di Surabaya lewat toko jasa titip — karena anaknya tak pernah angkat teleponnya."
-primaryKeyword: "komik Indonesia drama"
-secondaryKeywords: ["komik slice-of-life", "komik Indonesia 2026", "komik keluarga", "komik emosional"]
+metaTitle: "Jasa Titip Rindu — Komik Drama Slice of Life Indonesia 2026"
+metaDescription: "Bu Ningsih menitipkan rindu ke anaknya di Surabaya lewat toko Jasa Titip — karena teleponnya tak pernah diangkat. Komik drama slice-of-life Indonesia 2026."
+primaryKeyword: "komik drama Indonesia 2026"
+secondaryKeywords: ["komik slice-of-life Indonesia", "komik keluarga Indonesia 2026", "komik emosional Indonesia", "Nagrog Corp comics"]
 panels: 12
 approved: true
 ---
