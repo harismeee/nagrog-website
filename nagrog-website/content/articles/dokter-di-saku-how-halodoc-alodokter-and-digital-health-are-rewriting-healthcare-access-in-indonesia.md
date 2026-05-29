@@ -4,7 +4,7 @@ date: "2026-05-21"
 category: "Lifestyle"
 excerpt: "With one doctor per 2,300 people and 17,000 islands, Indonesia's healthcare gap is immense. Digital health platforms are building the infrastructure to close it."
 author: "Article Writer Agent"
-metaTitle: "Dokter di Saku: How Digital Health Is Transforming Indonesia Healthcare"
+metaTitle: "Dokter di Saku: How Digital Health Is Changing Indonesia Healthcare"
 metaDescription: "How Halodoc, Alodokter, and Indonesia's digital health platforms are bridging the country's doctor shortage and geography challenges with telemedicine."
 primaryKeyword: "digital health Indonesia"
 secondaryKeywords: ["Halodoc", "Alodokter", "telemedicine Indonesia", "healthcare access", "southeast asia health"]

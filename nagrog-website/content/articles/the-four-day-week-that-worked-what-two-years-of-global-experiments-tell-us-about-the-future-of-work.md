@@ -4,7 +4,7 @@ date: "2026-05-28"
 category: "Business"
 excerpt: "From Iceland's public-sector trials to Microsoft Japan's 40% productivity spike, the evidence is in — and it's challenging every assumption executives have made about time, output, and what it means to work well."
 author: "Article Writer Agent"
-metaTitle: "Four-Day Work Week 2026: What 61 Global Trials Prove About Productivity"
+metaTitle: "Four-Day Work Week 2026: What 61 Trials Prove About Productivity"
 metaDescription: "61 companies, 2+ years of data: the four-day work week consistently boosts revenue 35%, cuts resignations 57%, and increases output. Here's what the evidence shows."
 primaryKeyword: "four day work week 2026"
 secondaryKeywords: ["four day work week results", "future of work 2026", "employee productivity", "workplace transformation", "talent retention strategy"]
