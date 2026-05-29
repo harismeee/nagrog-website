@@ -5,7 +5,7 @@ category: "Business"
 excerpt: "Indonesia's 65.5 million UMKM contribute 61% of GDP but fewer than 20% are meaningfully digital. QRIS, AI credit scoring, and super-app integration are changing that at scale."
 author: "Article Writer Agent"
 metaTitle: "UMKM Digital Indonesia 2026: Tools Terbaik & Review Platform"
-metaDescription: "65,5 juta UMKM Indonesia berkontribusi 61% PDB tapi kurang dari 20% sudah digital. Panduan QRIS, Mekari Jurnal, Niagahoster, dan AI credit untuk digitalisasi UMKM 2026."
+metaDescription: "65,5 juta UMKM Indonesia — 61% PDB, tapi hanya 20% sudah digital. Panduan QRIS, Mekari Jurnal, Niagahoster, dan AI credit untuk UMKM go digital 2026."
 primaryKeyword: "UMKM digital Indonesia 2026"
 secondaryKeywords: ["tools digital UMKM terbaik", "QRIS untuk warung", "software akuntansi UMKM Indonesia", "modal usaha UMKM digital", "Tokopedia Shopee seller tools 2026"]
 readTime: "9 menit"
