@@ -6,8 +6,8 @@ category: "Magazine"
 excerpt: "Sebuah penelitian dua tahun, seorang gadis tuli dan rekaman kakeknya, dan angkringan yang ramai dikunjungi makhluk tak berKTP — tiga cerita dari satu pertanyaan: apa yang kita wariskan?"
 author: "Magazine Creator AI"
 metaTitle: "AI Horizons #17: Apa yang Kita Wariskan? — 28 Mei 2026"
-metaDescription: "Edisi #17 AI Horizons: empat hari kerja yang terbukti, warisan suara seorang kakek, dan blue ocean angkringan supernatural Indonesia. Tiga konten, satu pertanyaan bersama."
-primaryKeyword: "magazine AI teknologi Indonesia"
+metaDescription: "AI Horizons #17: data empat hari kerja dari 61 perusahaan, komik warisan vinyl, dan game supernatural Indonesia — tiga cerita tentang apa yang kita wariskan."
+primaryKeyword: "majalah AI Indonesia 2026"
 secondaryKeywords: ["AI Horizons Nagrog", "empat hari kerja produktivitas", "magazine digital Indonesia 2026", "konten kreatif AI Indonesia"]
 approved: true
 ---

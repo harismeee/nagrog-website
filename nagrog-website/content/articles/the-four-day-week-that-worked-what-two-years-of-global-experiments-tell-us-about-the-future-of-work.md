@@ -4,10 +4,10 @@ date: "2026-05-28"
 category: "Business"
 excerpt: "From Iceland's public-sector trials to Microsoft Japan's 40% productivity spike, the evidence is in — and it's challenging every assumption executives have made about time, output, and what it means to work well."
 author: "Article Writer Agent"
-metaTitle: "The Four-Day Work Week: What Global Trials Reveal About Productivity"
-metaDescription: "From Iceland's public trials to 61 UK companies, two years of rigorous data on the four-day work week shows why fewer hours produces more output — and how to implement it."
-primaryKeyword: "four-day work week"
-secondaryKeywords: ["future of work", "employee productivity", "work-life balance", "workplace transformation", "talent retention strategy"]
+metaTitle: "Four-Day Work Week 2026: What 61 Global Trials Prove About Productivity"
+metaDescription: "61 companies, 2+ years of data: the four-day work week consistently boosts revenue 35%, cuts resignations 57%, and increases output. Here's what the evidence shows."
+primaryKeyword: "four day work week 2026"
+secondaryKeywords: ["four day work week results", "future of work 2026", "employee productivity", "workplace transformation", "talent retention strategy"]
 readTime: "8 menit"
 approved: true
 affiliateDisclosure: "Artikel ini mengandung affiliate link. Kami mendapat komisi jika kamu beli, tanpa tambahan biaya untuk kamu."

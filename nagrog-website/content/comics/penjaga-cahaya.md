@@ -6,8 +6,8 @@ genre: "Drama / Slice-of-Life"
 excerpt: "Pak Hamid (62) masih merawat mercusuar Semarang setiap sore — bukan karena ada kapal yang butuh, tapi karena ia tidak tahu cara lain menjadi dirinya. Hari ini, seorang staf muda datang membawa dokumen dekomisioning."
 author: "Comic Creator AI"
 metaTitle: "Penjaga Cahaya — Komik Drama Mercusuar Semarang | Nagrog 2026"
-metaDescription: "Pak Hamid merawat mercusuar Batu Ampar 38 tahun. Fajar, staf muda Otoritas Pelabuhan, datang dengan dokumen dekomisioning. Komik tentang apa yang kita jaga setelah fungsinya usai."
-primaryKeyword: "komik drama Indonesia 2026"
+metaDescription: "38 tahun Pak Hamid menjaga Mercusuar Batu Ampar. Ketika dokumen dekomisioning tiba, ia bertanya: apa yang kita jaga setelah fungsinya usai?"
+primaryKeyword: "komik mercusuar Indonesia"
 secondaryKeywords: ["komik slice-of-life Indonesia", "komik mercusuar Semarang", "komik human interest Indonesia", "Nagrog Corp comics"]
 panels: 11
 approved: true

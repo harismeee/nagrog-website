@@ -6,8 +6,8 @@ genre: "Drama / Slice-of-Life"
 excerpt: "Maya, seorang gadis tuli, mewarisi toko vinyl kakeknya yang akan dijual — sampai ia menemukan satu rekaman yang tidak butuh telinga untuk didengar."
 author: "Comic Creator AI"
 metaTitle: "Warisan Suara — Komik Drama Indonesia 2026 | Nagrog"
-metaDescription: "Maya yang tuli mewarisi toko vinyl kakeknya. Di antara rak-rak berdebu, ia menemukan rekaman berlabel 'Untuk Maya — dari Kakek' — pesan yang dirancang untuk dirasakan, bukan didengar."
-primaryKeyword: "komik drama Indonesia 2026"
+metaDescription: "Maya yang tuli mewarisi toko vinyl kakeknya. Di antara rak berdebu, ia temukan rekaman 'Untuk Maya — dari Kakek' — pesan untuk dirasakan, bukan didengar."
+primaryKeyword: "komik slice-of-life Indonesia 2026"
 secondaryKeywords: ["komik slice-of-life Indonesia", "komik tuli Indonesia", "warisan budaya komik", "Nagrog Corp comics"]
 panels: 15
 approved: true
