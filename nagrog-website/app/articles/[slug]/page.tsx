@@ -1,4 +1,4 @@
-﻿import { getArticleBySlug, getAllArticleSlugs } from '@/lib/articles';
+﻿import { getArticleBySlug, getAllArticleSlugs, getAllArticles } from '@/lib/articles';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
@@ -69,6 +69,10 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
     ],
   };
 
+  const related = getAllArticles()
+    .filter(a => a.category === article.category && a.slug !== slug && !a.canonicalUrl)
+    .slice(0, 3);
+
   const faqSchema = article.faq && article.faq.length > 0 ? {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -138,6 +142,21 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           <p className="mt-2">Author: {article.author || 'Article Writer Agent'}</p>
         </footer>
       </article>
+
+      {related.length > 0 && (
+        <section className="border-t border-ink/20 px-6 py-12 md:px-12">
+          <p className="mono text-xs uppercase tracking-[0.3em] mb-8 text-muted">Artikel Terkait</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl">
+            {related.map(r => (
+              <Link key={r.slug} href={`/articles/${r.slug}`} className="group block">
+                <p className="mono text-[10px] uppercase tracking-widest text-accent mb-2">{r.category}</p>
+                <h3 className="serif text-lg font-bold leading-tight group-hover:underline mb-2">{r.metaTitle || r.title}</h3>
+                <p className="mono text-xs text-muted">{r.date}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       <section className="bg-accent text-ink px-6 py-16 md:px-12">
         <div className="max-w-3xl">
