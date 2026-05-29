@@ -12,6 +12,17 @@ approved: true
 score: 7.8
 reviewedSession: "Sesi #3"
 tags: ["stablecoins", "fintech", "cross-border-payments", "regulation", "digital-currency", "global-finance", "blockchain", "business"]
+faq:
+  - question: "Apa itu stablecoin dan bagaimana cara kerjanya?"
+    answer: "Stablecoin adalah aset kripto yang nilainya dipatok 1:1 ke mata uang fiat — umumnya dolar AS. Penerbit seperti Tether (USDT) dan Circle (USDC) menjaga peg dengan menyimpan cadangan dolar atau aset setara. Transaksi menggunakan blockchain sehingga lebih cepat dan murah daripada transfer bank konvensional."
+  - question: "Apakah stablecoin aman digunakan untuk transfer uang?"
+    answer: "Stablecoin utama seperti USDC (diaudit Circle) dan USDT (Tether) memiliki track record stabilitas yang kuat. Risikonya bukan pada volatilitas harga, melainkan pada risiko kontrapartii (apakah cadangan benar-benar ada) dan risiko regulasi di setiap yurisdiksi."
+  - question: "Stablecoin apa yang paling banyak digunakan di 2026?"
+    answer: "USDT (Tether) memimpin dengan market cap terbesar, diikuti USDC (Circle) yang lebih banyak digunakan oleh institusi karena kepatuhan regulasi AS. PayPal USD (PYUSD) dan stablecoin bank seperti JPMorgan Coin semakin signifikan untuk B2B payments."
+  - question: "Bagaimana stablecoin digunakan untuk kirim uang ke luar negeri?"
+    answer: "Alih-alih transfer SWIFT yang memakan 1-3 hari dan biaya 3-7%, pengirim menukar ke stablecoin, transfer on-chain dalam hitungan menit dengan biaya sangat kecil, dan penerima menukar ke mata uang lokal. Ini menjadi solusi utama untuk remittance ke negara berkembang seperti Indonesia dan Filipina."
+  - question: "Apakah stablecoin sudah diregulasi di Indonesia?"
+    answer: "OJK dan BI sedang menyusun kerangka regulasi kripto termasuk stablecoin. Saat ini, perdagangan kripto diawasi Bappebti. Penggunaan stablecoin untuk pembayaran di Indonesia masih dalam zona abu-abu regulasi, meski volumenya terus meningkat via platform P2P dan exchange."
 ---
 
 # The Stablecoin Surge: How Dollar-Pegged Digital Currencies Are Quietly Rewiring Global Commerce
@@ -53,7 +64,7 @@ The trajectory from here is reasonably easy to forecast in shape, if not in deta
 
 The interesting frontier will be programmability. The reason stablecoins are not just faster ACH transfers is that they can be embedded in smart contracts: payments that release on conditions, escrow that executes automatically, treasury operations that move funds across accounts based on rules rather than human approval. This is where the corporate world is starting to invest seriously, and where the productivity gains over the next several years are likely to be largest. Stablecoins began as a way to bridge the gap between traditional finance and crypto. They are ending up as something more useful and more lasting: a programmable settlement layer that quietly removes friction from the most important plumbing in the global economy. The revolution, as is often the case, looks a lot less revolutionary once it is actually here.
 
-
+
 
 
 ---

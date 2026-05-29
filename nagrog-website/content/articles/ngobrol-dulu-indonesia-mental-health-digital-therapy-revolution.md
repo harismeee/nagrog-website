@@ -10,6 +10,17 @@ primaryKeyword: "Indonesia mental health digital therapy"
 secondaryKeywords: ["Riliv Indonesia", "Halodoc mental health", "Indonesia psychiatric shortage", "telemedicine psychology Indonesia", "CBT app Indonesia"]
 readTime: "9 menit"
 approved: true
+faq:
+  - question: "Aplikasi kesehatan mental apa yang terbaik di Indonesia?"
+    answer: "Riliv adalah aplikasi terapi dan meditasi lokal terbesar, dengan konselor bersertifikat dan program mindfulness berbahasa Indonesia. Sehatmental dan Into The Light Indonesia fokus pada kesadaran dan edukasi. Halodoc juga memiliki layanan psikolog online. Untuk terapi CBT digital, Into The Light dan Riliv paling maju."
+  - question: "Berapa biaya terapi psikolog online di Indonesia?"
+    answer: "Konsultasi psikolog via Riliv atau Halodoc berkisar Rp 150,000–Rp 400,000 per sesi (45-60 menit). Psikiater (dokter spesialis jiwa yang bisa meresepkan obat) lebih mahal: Rp 350,000–Rp 800,000 per sesi. Dibanding terapi offline di klinik swasta (bisa Rp 500,000–1,5 juta), platform digital jauh lebih accessible."
+  - question: "Apakah terapi online sama efektifnya dengan terapi tatap muka?"
+    answer: "Penelitian internasional menunjukkan terapi CBT online setara efektivitasnya dengan tatap muka untuk depresi ringan-sedang dan kecemasan. Untuk kondisi berat (gangguan kepribadian, trauma kompleks, psikosis), tatap muka masih dianjurkan. Di Indonesia, konteks lokal juga penting — terapis yang memahami budaya dan bahasa membuat perbedaan besar."
+  - question: "Bagaimana kondisi psikiatri di Indonesia dan apa tantangannya?"
+    answer: "Indonesia memiliki rasio 1 psikiater per 350,000 penduduk — di bawah standar WHO (1 per 10,000). Dari perkiraan 50 juta orang dengan gangguan mental, 90% tidak mendapat perawatan. Stigma sosial dan akses masih menjadi hambatan utama, terutama di luar Jawa. Platform digital adalah satu-satunya solusi skala yang feasible dalam jangka pendek."
+  - question: "Apa itu terapi CBT dan mengapa populer di platform digital?"
+    answer: "Cognitive Behavioral Therapy (CBT) adalah pendekatan terapi yang mengubah pola pikir negatif melalui latihan terstruktur. Populer di platform digital karena: (1) Dapat disampaikan via modul teks/video tanpa interaksi live, (2) Evidence-based dengan penelitian paling banyak, (3) Hasilnya terukur dan berbatas waktu (8-12 sesi). Riliv menggunakan CBT sebagai backbone kontennya."
 ---
 
 ## The Scale of the Invisible Crisis

@@ -11,6 +11,19 @@ secondaryKeywords: ["four day work week results", "future of work 2026", "employ
 readTime: "8 menit"
 approved: true
 affiliateDisclosure: "Artikel ini mengandung affiliate link. Kami mendapat komisi jika kamu beli, tanpa tambahan biaya untuk kamu."
+faq:
+  - question: "Apakah four-day work week benar-benar terbukti meningkatkan produktivitas?"
+    answer: "Ya. Data dari 61 uji coba di berbagai negara — termasuk Iceland, Inggris, dan Jepang — menunjukkan produktivitas stabil atau meningkat di hampir semua kasus. Microsoft Japan melaporkan lonjakan output 40% dan Perpetual Guardian mempertahankan jadwal 4 hari setelah trial karena hasilnya terlalu baik untuk ditinggalkan."
+  - question: "Perusahaan mana saja yang sudah menerapkan 4-day work week?"
+    answer: "Perpetual Guardian (Selandia Baru), Microsoft Japan, Bolt (Estonia), Atom Bank (Inggris), dan ribuan perusahaan lain telah mengadopsi jadwal empat hari. Pemerintah Islandia dan Skotlandia juga menjalankan program percontohan nasional."
+  - question: "Apakah four-day work week legal di Indonesia?"
+    answer: "UU Ketenagakerjaan Indonesia mewajibkan minimal 40 jam kerja per minggu dalam 5 hari, atau 7 jam per hari dalam 6 hari. Perusahaan dapat mengadopsi 4-day week dengan catatan total jam terpenuhi, dan beberapa startup Indonesia sudah menerapkan model ini secara de facto."
+  - question: "Apa bedanya four-day work week dengan 32-hour work week?"
+    answer: "Four-day work week hanya mengubah distribusi hari kerja, bukan selalu jumlah jamnya. Model 32-hour week (seperti yang diadvokasi 4 Day Week Global) memang memotong total jam dari 40 menjadi 32, dengan asumsi output setara. Tidak semua implementasi four-day week mengurangi jam total."
+  - question: "Apakah four-day work week cocok untuk semua industri?"
+    answer: "Penelitian menunjukkan model ini berhasil di layanan, manufaktur ringan, dan pemerintahan — bukan hanya tech company. Tantangan terbesar ada di industri berbasis shift seperti retail dan kesehatan, di mana fleksibilitas jadwal lebih kompleks namun tetap memungkinkan dengan rotasi yang tepat."
+  - question: "Bagaimana cara implementasi four-day work week di perusahaan?"
+    answer: "Langkah utama: (1) audit meeting dan workflow untuk identifikasi pemborosan waktu, (2) tetapkan target output yang jelas, bukan jam kehadiran, (3) mulai dengan pilot 3 bulan di satu divisi, (4) ukur produktivitas dan wellbeing sebelum dan sesudah, (5) rollout bertahap berdasarkan data."
 ---
 
 Six months into Perpetual Guardian's trial of a 32-hour workweek, the New Zealand estate-planning company's CEO Andrew Barnes had a problem he hadn't anticipated: his employees were too productive to go back. Company-wide revenue had held steady. Customer satisfaction had risen. Staff engagement metrics jumped from 54 to 78 percent in a single quarter. Job applications tripled, spontaneously, without a single change to recruitment marketing. When the trial ended in 2018, the leadership team quietly abandoned the idea of returning to five days. There was simply no data that justified it.

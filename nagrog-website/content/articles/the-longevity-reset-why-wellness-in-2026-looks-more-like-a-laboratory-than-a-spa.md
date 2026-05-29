@@ -12,6 +12,17 @@ approved: true
 score: 8.2
 reviewedSession: "Sesi #2"
 tags: ["longevity", "wellness", "health-technology", "wearables", "glp-1", "preventive-medicine", "biohacking", "lifestyle"]
+faq:
+  - question: "Apa itu longevity science dan mengapa sedang booming di 2026?"
+    answer: "Longevity science adalah bidang yang mempelajari mekanisme biologis penuaan dan cara memperlambatnya. Booming karena: (1) GLP-1 drugs (Ozempic/Wegovy) terbukti memiliki efek anti-aging di luar penurunan berat badan, (2) wearable sensor semakin murah dan akurat, (3) investor seperti Jeff Bezos memompa miliaran dolar ke riset longevity."
+  - question: "Apa itu GLP-1 dan apakah aman untuk longevity?"
+    answer: "GLP-1 receptor agonists (semaglutide/tirzepatide) awalnya dikembangkan untuk diabetes tipe 2. Penelitian terbaru menunjukkan efek positif pada kardiovaskular, neurodegeneration, dan metabolisme yang berpotensi memperpanjang healthspan. Efek samping ada (mual, massa otot turun) dan penggunaan jangka panjang masih dalam studi."
+  - question: "Biomarker apa yang paling penting untuk dipantau untuk longevity?"
+    answer: "Lima biomarker kunci: (1) HbA1c (kontrol gula darah jangka panjang), (2) hs-CRP (inflamasi kronis), (3) apoB (risiko kardiovaskular lebih akurat dari LDL biasa), (4) hormones panel (testosterone, estrogen, DHEA), (5) biological age via epigenetic clock testing. Wearable modern memantau proxy real-time seperti HRV dan SpO2."
+  - question: "Apakah biohacking dan longevity science bisa diterapkan di Indonesia?"
+    answer: "Ya, dengan beberapa adaptasi. Lab testing lengkap tersedia di Jakarta, Surabaya, Bali (ProCheck, Laboratorium Klinik Pramita). Wearable seperti Oura Ring, Whoop, dan Apple Watch tersedia. Tantangan: beberapa suplemen dan obat longevity (NMN, rapamycin) belum mudah diakses secara legal di Indonesia."
+  - question: "Berapa biaya yang dibutuhkan untuk lifestyle longevity yang serius?"
+    answer: "Range sangat lebar: pemantauan dasar (annual bloodwork + wearable) bisa dimulai dari Rp 3–5 juta per tahun. Level menengah dengan protokol suplementasi Rp 2–5 juta per bulan. Level tinggi seperti Peter Attia atau Bryan Johnson bisa Rp 500 juta+ per tahun. Mayoritas manfaat tercapai dengan olahraga, tidur, dan nutrisi — tanpa biaya besar."
 ---
 
 # The Longevity Reset: Why Wellness in 2026 Looks More Like a Laboratory Than a Spa
@@ -41,7 +52,7 @@ There are reasonable concerns about the direction the longevity movement is taki
 
 The second concern is access and equity. The most advanced longevity protocols remain expensive and disproportionately available to people with significant disposable income and time. As personalized medicine pulls ahead of standard healthcare, there is a real risk that the lifespan and healthspan gap between socioeconomic groups widens further. Public health advocates are pushing for the most evidence-supported interventions to be incorporated into mainstream healthcare and insurance coverage, but progress is uneven across countries and regions. The promise of the longevity movement is genuine Ã¢â‚¬â€ many of the practices it advocates have substantial scientific support and are improving lives. The challenge is ensuring that the benefits do not remain confined to a narrow demographic, and that the cultural conversation about health does not slide into a new and lonelier form of perfectionism. Done well, the longevity reset can be a meaningful upgrade to how we live. Done poorly, it becomes another way to feel inadequate.
 
-
+
 
 
 ---

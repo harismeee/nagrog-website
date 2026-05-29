@@ -10,6 +10,19 @@ primaryKeyword: "digital health Indonesia"
 secondaryKeywords: ["Halodoc", "Alodokter", "telemedicine Indonesia", "healthcare access", "southeast asia health"]
 readTime: "9 menit"
 approved: true
+faq:
+  - question: "Apa itu Halodoc dan bagaimana cara pakainya?"
+    answer: "Halodoc adalah aplikasi kesehatan digital Indonesia yang memungkinkan konsultasi dokter online, pembelian obat, dan pemesanan lab test. Unduh aplikasinya, pilih dokter berdasarkan spesialisasi, chat atau video call, dan terima resep digital — bisa dilakukan dalam 5 menit."
+  - question: "Apa perbedaan Halodoc dan Alodokter?"
+    answer: "Halodoc lebih fokus pada ekosistem layanan lengkap (apotek, lab, asuransi), sedangkan Alodokter menonjol dalam konten kesehatan edukatif dan komunitas. Keduanya menawarkan konsultasi dokter online; Halodoc cenderung lebih cepat respons, Alodokter memiliki database artikel medis lebih lengkap."
+  - question: "Apakah konsultasi dokter online di Halodoc bisa klaim BPJS?"
+    answer: "Sampai 2026, sebagian besar konsultasi telemedicine premium belum sepenuhnya ter-cover BPJS. Namun beberapa fasilitas kesehatan partner Halodoc menerima BPJS untuk layanan tertentu. Cek fitur 'Faskes BPJS' di aplikasi untuk menemukan dokter yang bisa diklaim."
+  - question: "Berapa biaya konsultasi dokter online di Indonesia?"
+    answer: "Biaya konsultasi umum via Halodoc berkisar Rp 20.000–Rp 75.000, tergantung spesialisasi. Dokter spesialis bisa mencapai Rp 100.000–Rp 200.000. Dibanding konsultasi offline dengan transport dan waktu tunggu, telemedicine jauh lebih cost-effective untuk keluhan ringan."
+  - question: "Apakah dokter online bisa memberikan resep obat?"
+    answer: "Ya. Dokter di platform telemedicine berlisensi dapat mengeluarkan e-resep yang langsung terintegrasi dengan apotek partner seperti Guardian atau apotek lokal. Obat bisa diantar ke rumah dalam 1-2 jam di kota besar. Obat keras tetap memerlukan konsultasi langsung."
+  - question: "Seberapa aman data medis di aplikasi kesehatan Indonesia?"
+    answer: "Halodoc dan Alodokter tunduk pada regulasi data kesehatan OJK dan Kemenkes. Data terenkripsi dan tidak dijual ke pihak ketiga tanpa consent. Namun pengguna tetap disarankan membaca kebijakan privasi dan tidak berbagi data sensitif di platform yang tidak terverifikasi."
 ---
 
 Indonesia has one doctor for every 2,300 people — well below the WHO-recommended ratio of 1 per 1,000. A generation of digital health platforms is building the infrastructure to close that gap, and the scale of the transformation underway is only beginning to be recognized.

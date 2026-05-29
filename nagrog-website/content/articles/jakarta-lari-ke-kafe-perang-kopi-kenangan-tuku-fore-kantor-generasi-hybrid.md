@@ -10,6 +10,17 @@ primaryKeyword: "kafe sebagai kantor Jakarta"
 secondaryKeywords: ["Kopi Tuku Menteng", "Fore Coffee", "Kopi Kenangan", "kerja hybrid Indonesia", "third place freelancer"]
 readTime: "10 menit"
 approved: true
+faq:
+  - question: "Kafe mana yang paling populer untuk kerja di Jakarta?"
+    answer: "Kopi Tuku (Menteng, Barito), Fore Coffee (berbagai lokasi), dan Kopi Kenangan Business Class menjadi favorit. Di luar chain besar, Common Grounds di SCBD dan Tanamera di Menteng populer di kalangan profesional. Di Jakarta Selatan, kawasan Kemang dan Cipete penuh kafe yang ramah WFH."
+  - question: "Mengapa profesional muda lebih suka kerja di kafe daripada kantor?"
+    answer: "Tiga alasan utama: (1) Social serendipity — bertemu orang baru dan kolaborasi informal yang tidak terjadi di rumah, (2) Ambient productivity — suara kafe meningkatkan fokus untuk pekerjaan kreatif (efek 'coffee shop sound'), (3) Ritual pemisahan — transisi fisik dari rumah ke kafe membantu switch mode mental ke kerja."
+  - question: "Apa dampak tren kafe sebagai kantor terhadap bisnis kopi Indonesia?"
+    answer: "Sangat positif. Kopi Kenangan, Fore, dan Kopi Janji Jiwa mempercepat ekspansi outlet dengan konsep 'work-friendly' — colokan banyak, WiFi kencang, meja panjang. Average ticket size naik karena pelanggan stay lebih lama. Persaingan bergeser dari kecepatan ke kenyamanan dan 'ambiance produktif'."
+  - question: "Berapa biaya rata-rata kerja dari kafe di Jakarta per hari?"
+    answer: "Biaya wajar: Rp 30,000–80,000 per sesi (2-3 jam). Untuk full day, ekspektasi Rp 80,000–150,000 termasuk makan siang. Dibanding co-working space (Rp 100,000–250,000/hari), kafe lebih terjangkau — meski tidak semua cocok untuk meeting atau panggilan video panjang."
+  - question: "Apakah tren kerja dari kafe akan bertahan?"
+    answer: "Data menunjukkan ya. Work-from-cafe bukan hanya tren pandemi — ini perubahan struktural. Penetrasi WFH dan hybrid di Jakarta stagnan di 40-60% untuk white collar worker. Selama budaya kerja hybrid hidup, kafe Jakarta akan tetap menjadi 'kantor ketiga' yang esensial bagi generasi profesional urban."
 ---
 
 ## Adegan Sore di Kafe Tuku

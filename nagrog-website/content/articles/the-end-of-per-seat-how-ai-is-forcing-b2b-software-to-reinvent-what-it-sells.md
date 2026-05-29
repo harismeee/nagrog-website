@@ -10,6 +10,17 @@ primaryKeyword: "SaaS pricing strategy 2026"
 secondaryKeywords: ["per-seat pricing", "outcome-based pricing", "usage-based pricing", "Intercom Fin", "Salesforce Agentforce"]
 readTime: "9 menit"
 approved: true
+faq:
+  - question: "Apa itu per-seat pricing dan mengapa AI mengancamnya?"
+    answer: "Per-seat pricing menagih berdasarkan jumlah pengguna. AI mengancam model ini karena satu AI agent bisa menggantikan pekerjaan banyak manusia — sehingga bisnis membayar 'lebih sedikit kursi' meski value yang diterima jauh lebih besar. Vendor yang mempertahankan per-seat melihat revenue turun saat adopsi AI meningkat."
+  - question: "Model pricing apa yang menggantikan per-seat SaaS?"
+    answer: "Tiga model utama yang mengambil alih: (1) Usage-based pricing — bayar per API call, per token, per compute (OpenAI, AWS), (2) Outcome-based pricing — bayar per resolusi tiket, per deal closed (Intercom Fin), (3) Value-based pricing — persentase dari value yang dihasilkan AI. Hybrid ketiganya semakin umum."
+  - question: "Perusahaan SaaS mana yang sudah beralih dari per-seat?"
+    answer: "Intercom beralih ke per-resolution untuk AI agent Fin. Salesforce Agentforce menagih per conversation. GitHub Copilot menawarkan usage-based tier. ServiceNow, HubSpot, dan Zendesk semuanya sedang merevisi model pricing untuk mengakomodasi AI agents yang bekerja 'sebagai pengguna'."
+  - question: "Bagaimana dampak perubahan pricing SaaS bagi startup Indonesia?"
+    answer: "Perubahan ini membuka dua peluang: (1) Startup bisa mengakses software enterprise-grade dengan biaya variabel, bukan fixed seat fee — lebih hemat di tahap awal, (2) Ada ruang untuk membangun produk AI Indonesia dengan model pricing baru yang lebih aligned dengan value yang diberikan ke pelanggan lokal."
+  - question: "Apakah model per-outcome selalu lebih baik dari per-seat?"
+    answer: "Tidak selalu. Per-outcome bekerja baik ketika outcome mudah diukur (tiket diselesaikan, invoice diproses). Untuk software produktivitas umum, pengukuran outcome sulit dan bisa memicu gaming metrics. Transisi harus hati-hati: pelanggan perlu predictability biaya, vendor perlu predictability revenue."
 ---
 
 ## When the Pricing Page Tells the Story

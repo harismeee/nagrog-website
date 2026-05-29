@@ -10,6 +10,19 @@ primaryKeyword: "agentic AI"
 secondaryKeywords: ["AI agents", "enterprise AI", "multi-agent systems", "LLM automation", "future of work"]
 readTime: "9 menit"
 approved: true
+faq:
+  - question: "Apa itu agentic AI dan apa bedanya dengan chatbot biasa?"
+    answer: "Chatbot menjawab pertanyaan dan berhenti. Agentic AI melanjutkan ke aksi: merencanakan langkah-langkah, menggunakan tools eksternal (browsing, code execution, API calls), mengingat konteks jangka panjang, dan menyelesaikan tugas multi-step secara otonom tanpa instruksi per langkah."
+  - question: "Apa contoh nyata penggunaan AI agent di bisnis?"
+    answer: "AI agent digunakan untuk: mengotomasikan alur kerja legal (review kontrak, due diligence), menjalankan riset kompetitor dengan mengumpulkan dan menganalisis data dari banyak sumber, mengelola kampanye email marketing end-to-end, dan menjalankan software testing tanpa intervensi manusia."
+  - question: "Perusahaan mana yang membangun AI agent terbaik di 2026?"
+    answer: "OpenAI (Operator/GPT-4o), Anthropic (Claude Code/Managed Agents), Google (Gemini Agents), Salesforce (Agentforce), dan Microsoft (Copilot Agents) adalah pemain utama. Untuk pengembang, framework seperti LangChain, AutoGen, dan CrewAI populer untuk membangun custom agents."
+  - question: "Apakah AI agent aman digunakan untuk tugas penting?"
+    answer: "Keamanan tergantung pada desain dan guardrails. AI agent yang baik memiliki: pembatasan tool access, human-in-the-loop untuk keputusan high-stakes, audit trail lengkap, dan mekanisme rollback. Untuk tugas kritis, supervisi manusia tetap diperlukan di checkpoints kunci."
+  - question: "Bagaimana agentic AI akan mengubah pekerjaan di masa depan?"
+    answer: "AI agent tidak menghapus pekerjaan secara massal, namun mengubah nature-nya. Tugas rutin berbasis aturan akan diotomasi; pekerjaan manusia bergeser ke supervisi AI, definisi tujuan, penilaian etika, dan kreasi dalam domain yang belum terdefinisi oleh data historis."
+  - question: "Apa itu multi-agent system?"
+    answer: "Multi-agent system adalah arsitektur di mana beberapa AI agent spesialis bekerja sama untuk menyelesaikan tugas kompleks — satu agent merencanakan, satu mengeksekusi kode, satu melakukan QA, satu melaporkan. Pendekatan ini memungkinkan parallelism dan spesialisasi yang tidak bisa dilakukan agent tunggal."
 ---
 
 For three years, the dominant AI paradigm was the chatbot — a system that responded, summarized, and advised. The next paradigm is fundamentally different: AI systems that plan, act, and complete multi-step tasks autonomously. The race to build them is already underway.

@@ -12,6 +12,17 @@ approved: true
 score: 8.0
 reviewedSession: "Sesi #2"
 tags: ["humanoid-robotics", "automation", "manufacturing", "ai-robotics", "industrial-technology", "labor-economics", "foundation-models", "factory-of-the-future"]
+faq:
+  - question: "Robot humanoid apa yang sudah dipakai di pabrik di 2026?"
+    answer: "Figure 02 (partnership dengan BMW), Agility Robotics Digit (Amazon), dan Tesla Optimus Gen 2 adalah yang paling jauh di deployment nyata. BYD dan beberapa produsen China juga aktif menguji coba. Kesemuanya menangani tugas structured dan repetitif: pengambilan part, assembly ringan, dan material handling."
+  - question: "Berapa harga robot humanoid dan kapan akan terjangkau?"
+    answer: "Unit saat ini berkisar $100,000–$300,000 per robot. Elon Musk memproyeksikan Optimus akan turun ke $20,000–$30,000 dalam beberapa tahun dengan skala produksi. Analis lebih konservatif: harga $50,000–$80,000 dalam 5 tahun. Biaya total ownership (perawatan, software) juga signifikan."
+  - question: "Apakah robot humanoid akan menggantikan pekerja pabrik?"
+    answer: "Dalam jangka pendek, robot mengisi posisi yang kekurangan tenaga kerja atau berbahaya — bukan menggusur pekerja yang ada. Jangka menengah, dampak akan terasa di pekerjaan assembly paling terstruktur. Sejarah otomasi menunjukkan penciptaan lapangan kerja baru di sektor lain, meski transisi ini menyakitkan bagi individu yang terdampak."
+  - question: "Mengapa robot humanoid lebih sulit dibuat daripada robot lengan pabrik konvensional?"
+    answer: "Robot lengan beroperasi di lingkungan yang sepenuhnya terkontrol dengan gerakan terdefinisi. Robot humanoid harus navigasi lingkungan tak terstruktur — tangga, permukaan tidak rata, objek bervariasi — menggunakan dua kaki yang inherently tidak stabil. Ini membutuhkan AI persepsi dan kontrol real-time yang jauh lebih kompleks."
+  - question: "Apa perbedaan robot humanoid Figure, Tesla Optimus, dan Boston Dynamics Atlas?"
+    answer: "Figure dan Tesla Optimus fokus pada aplikasi industri/komersial dengan target deployment skala besar. Boston Dynamics Atlas adalah platform riset dan demo yang lebih advanced secara kinematik namun belum dalam deployment komersial besar. Agility Digit adalah yang paling matang secara deployment nyata (Amazon warehouses)."
 ---
 
 # The Humanoid Decade: How Walking Robots Are Quietly Moving From Lab Demo to Factory Floor
@@ -41,4 +52,4 @@ It would be easy, given the breathless coverage of the latest demo videos, to co
 
 There is also a sober conversation underway about the labor implications of widespread humanoid deployment, and it is not the conversation either the technology's most enthusiastic advocates or its sharpest critics tend to have. The honest reading is more nuanced. In the short term, humanoid robots are filling roles that human workers are increasingly unwilling to take, often complementing rather than displacing existing staff. In the medium term, the same machines will absorb a growing share of the most physically punishing work in industrial settings, with knock-on effects on employment patterns that will require thoughtful policy response. The technology is real, the deployments are real, and the disruption Ã¢â‚¬â€ both positive and negative Ã¢â‚¬â€ will be real as well. The decade ahead will be defined not by whether humanoids arrive, but by how societies choose to share the gains they produce.
 
-
+

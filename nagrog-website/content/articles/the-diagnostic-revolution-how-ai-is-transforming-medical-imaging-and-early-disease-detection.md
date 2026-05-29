@@ -12,6 +12,19 @@ approved: true
 score: 8.0
 reviewedSession: "Sesi #4"
 tags: ["artificial-intelligence", "healthcare", "medical-imaging", "diagnostics", "radiology", "deep-learning", "global-health", "cancer-detection"]
+faq:
+  - question: "Bagaimana AI digunakan dalam pencitraan medis?"
+    answer: "AI menganalisis X-ray, CT scan, MRI, dan mammografi untuk mendeteksi anomali yang mungkin terlewat oleh mata manusia. Algoritma deep learning dilatih pada jutaan gambar medis untuk mengidentifikasi pola kanker, stroke, penyakit jantung, dan kondisi lain dengan akurasi yang menyamai atau melampaui radiolog berpengalaman."
+  - question: "Apakah AI lebih akurat dari dokter dalam mendiagnosis penyakit?"
+    answer: "Untuk tugas spesifik dan terdefinisi, ya — AI dapat mendeteksi kanker payudara dari mammografi dengan false-negative rate 5,7% lebih rendah dari radiolog rata-rata. Namun AI belum bisa menggantikan dokter dalam konteks klinis penuh: riwayat pasien, pemeriksaan fisik, dan penilaian holistik tetap memerlukan manusia."
+  - question: "Kanker apa saja yang sudah bisa dideteksi AI dari medical imaging?"
+    answer: "AI sudah memiliki performa kuat untuk: kanker payudara (mammografi), kanker paru (CT scan), retinopati diabetik (fundus photography), kanker kulit (dermoscopy), dan polip kolon (kolonoskopi). Beberapa sistem sudah mendapat izin FDA dan CE Mark untuk penggunaan klinis."
+  - question: "Apakah AI akan menggantikan radiolog?"
+    answer: "Tidak menggantikan, tapi mengubah peran. AI bertindak sebagai 'first reader' yang memprioritaskan kasus mendesak dan menandai area yang perlu perhatian — radiolog kemudian memvalidasi dan membuat keputusan akhir. Ini meningkatkan throughput dan mengurangi kelelahan, bukan menghilangkan keahlian klinis."
+  - question: "Seberapa cepat AI medical imaging bisa diakses di Indonesia?"
+    answer: "Beberapa rumah sakit besar di Jakarta, Surabaya, dan Bandung sudah mulai mengadopsi AI-assisted radiology. Tantangan utama adalah ketersediaan data training dalam populasi Asia, regulasi BPFA (Badan Pengawas), dan integrasi dengan sistem SIMRS yang ada. Skala nasional diperkirakan 3-5 tahun lagi."
+  - question: "Apa risiko penggunaan AI dalam diagnostik medis?"
+    answer: "Risiko utama: (1) Bias data — AI dilatih pada populasi tertentu bisa kurang akurat untuk populasi lain, (2) false confidence — klinisi mungkin terlalu percaya pada output AI, (3) kerentanan adversarial — gambar yang dimanipulasi dapat mengecoh algoritma. Regulasi ketat dan transparansi algoritma adalah safeguard utama."
 ---
 
 # The Diagnostic Revolution: How AI Is Transforming Medical Imaging and Early Disease Detection
@@ -49,4 +62,4 @@ The economic case is equally compelling. A 2024 analysis from the McKinsey Globa
 
 The path to that dividend, however, runs through difficult terrain: regulatory frameworks in many low-income countries are underdeveloped for AI medical devices, reimbursement structures are unclear, and the electricity and internet infrastructure required to run cloud-based AI tools is unreliable. The next decade in AI diagnostics will be defined less by algorithmic performance than by the harder, slower, more contextual work of health systems integration Ã¢â‚¬â€ the organizational redesign, the clinician training, the regulatory harmonization, and the sustained investment required to move from impressive research results to genuinely improved patient outcomes at scale.
 
-
+

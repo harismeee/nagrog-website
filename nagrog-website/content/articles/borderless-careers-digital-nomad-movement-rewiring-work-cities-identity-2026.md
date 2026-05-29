@@ -10,6 +10,19 @@ primaryKeyword: "digital nomad 2026"
 secondaryKeywords: ["remote work economy", "digital nomad visa", "location-independent career", "nomad cities 2026", "borderless work lifestyle"]
 readTime: "8 menit"
 approved: true
+faq:
+  - question: "Apa itu digital nomad dan bagaimana cara kerjanya?"
+    answer: "Digital nomad adalah profesional yang bekerja secara remote sambil bepergian atau tinggal di berbagai lokasi. Mereka mengandalkan laptop, koneksi internet, dan tools kolaborasi seperti Slack, Notion, dan Zoom. Profesi paling umum: software developer, content creator, desainer, konsultan, dan data analyst."
+  - question: "Negara mana yang memiliki digital nomad visa terbaik di 2026?"
+    answer: "Portugal (D8 Visa), Kroasia, Estonia, Barbados, dan Indonesia (Bali Second Home Visa) termasuk yang paling menarik. Indonesia menawarkan masa tinggal hingga 10 tahun dengan syarat dana minimum $130.000. Thailand dan Malaysia juga meluncurkan program kompetitif di 2025-2026."
+  - question: "Berapa penghasilan rata-rata digital nomad?"
+    answer: "Median penghasilan digital nomad global sekitar $75,000 per tahun, dengan range sangat lebar: developer senior dan konsultan strategi bisa mencapai $200,000+, sementara content creator pemula mungkin mulai dari $20,000–$30,000. Gaya hidup nomad sangat accessible karena biaya hidup bisa jauh lebih rendah dari kota asal."
+  - question: "Apa tantangan terbesar menjadi digital nomad Indonesia?"
+    answer: "Tantangan utama: (1) Regulasi perpajakan ganda — di mana membayar pajak jika tinggal di banyak negara? (2) Visa kerja yang masih abu-abu di banyak negara, (3) Ketidakstabilan penghasilan, (4) Kesepian dan community yang terbatas, (5) Manajemen klien di timezone berbeda."
+  - question: "Apakah digital nomad Indonesia harus bayar pajak?"
+    answer: "Wajib pajak Indonesia yang tinggal di luar negeri selama lebih dari 183 hari per tahun dan memutus hubungan pajak dapat dikecualikan dari PPh. Namun prosesnya kompleks — konsultasikan dengan konsultan pajak internasional. Banyak nomad Indonesia menggunakan entitas luar negeri atau menjadi tax resident di yurisdiksi dengan tarif lebih rendah."
+  - question: "Kota mana yang paling populer untuk digital nomad di Asia Tenggara?"
+    answer: "Bali (Canggu/Ubud) konsisten menjadi top destination global karena biaya hidup rendah, komunitas besar, dan infrastruktur co-working yang matang. Chiang Mai (Thailand), Kuala Lumpur, dan Ho Chi Minh City juga sangat populer. Di luar Asia, Medellín, Tbilisi, dan Lisboa memimpin."
 ---
 
 ## The Movement That Became an Industry
