@@ -24,6 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: article.excerpt,
       type: 'article',
       publishedTime: article.date,
+      images: ['https://nagrog.com/og-image.png'],
     },
     twitter: {
       card: 'summary_large_image',
@@ -39,11 +40,13 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   const article = await getArticleBySlug(slug);
   if (!article) notFound();
 
+  const canonicalUrl = article.canonicalUrl || `https://nagrog.com/articles/${slug}`;
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: article.title,
     description: article.excerpt,
+    url: canonicalUrl,
     image: 'https://nagrog.com/og-image.png',
     datePublished: `${article.date}T01:00:00+07:00`,
     dateModified: `${article.date}T01:00:00+07:00`,
@@ -53,9 +56,13 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       name: 'Nagrog Corp',
       logo: { '@type': 'ImageObject', url: 'https://nagrog.com/logo.png' },
     },
+    ...(article.primaryKeyword && {
+      keywords: [article.primaryKeyword, ...(article.secondaryKeywords || [])].join(', '),
+    }),
+    ...(article.category && { articleSection: article.category }),
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://nagrog.com/articles/${slug}`,
+      '@id': canonicalUrl,
     },
   };
 
