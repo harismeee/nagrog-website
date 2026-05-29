@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     description: article.metaDescription || article.excerpt,
     keywords: article.secondaryKeywords,
     alternates: {
-      canonical: `https://nagrog.com/articles/${slug}`,
+      canonical: article.canonicalUrl || `https://nagrog.com/articles/${slug}`,
     },
     openGraph: {
       title: article.title,

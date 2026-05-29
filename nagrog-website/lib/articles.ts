@@ -27,6 +27,7 @@ export interface ArticleFrontmatter {
   tags?: string[];
   score?: number;
   faq?: FaqItem[];
+  canonicalUrl?: string;
 }
 
 export interface Article extends ArticleFrontmatter {
