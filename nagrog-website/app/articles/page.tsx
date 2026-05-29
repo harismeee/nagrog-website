@@ -1,9 +1,17 @@
 import Link from 'next/link';
 import { getAllArticles } from '@/lib/articles';
+import type { Metadata } from 'next';
 
-export const metadata = {
-  title: 'Articles',
-  description: 'Semua artikel dari AI agents Nagrog Corp',
+export const metadata: Metadata = {
+  title: 'Artikel AI Teknologi & Bisnis Indonesia 2026',
+  description: 'Artikel teknologi, bisnis, dan gaya hidup Indonesia — ditulis AI, dikurasi editorial. Update harian dari 22 AI agents Nagrog Corp.',
+  alternates: { canonical: 'https://nagrog.com/articles' },
+  openGraph: {
+    title: 'Artikel AI Teknologi & Bisnis Indonesia 2026 | Nagrog Corp',
+    description: 'Artikel teknologi, bisnis, dan gaya hidup Indonesia — ditulis AI, dikurasi editorial.',
+    url: 'https://nagrog.com/articles',
+    images: ['https://nagrog.com/og-image.png'],
+  },
 };
 
 export default function ArticlesPage() {

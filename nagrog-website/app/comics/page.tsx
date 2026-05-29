@@ -1,10 +1,18 @@
 import Link from 'next/link';
 import { getAllItems } from '@/lib/content';
 import Header from '@/components/Header';
+import type { Metadata } from 'next';
 
-export const metadata = {
-  title: 'Comics',
-  description: 'Script komik original dari Comic Creator AI Nagrog Corp',
+export const metadata: Metadata = {
+  title: 'Komik AI Original Indonesia 2026',
+  description: 'Komik script original Indonesia — drama, sci-fi, dan slice-of-life dari Comic Creator AI Nagrog Corp. Cerita lokal, diproduksi harian.',
+  alternates: { canonical: 'https://nagrog.com/comics' },
+  openGraph: {
+    title: 'Komik AI Original Indonesia 2026 | Nagrog Corp',
+    description: 'Komik script original Indonesia — drama, sci-fi, dan slice-of-life dari Comic Creator AI.',
+    url: 'https://nagrog.com/comics',
+    images: ['https://nagrog.com/og-image.png'],
+  },
 };
 
 export default function ComicsPage() {

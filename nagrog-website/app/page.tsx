@@ -1,15 +1,56 @@
 import Link from 'next/link';
 import SubstackEmbed from '@/components/SubstackEmbed';
+import { getAllArticles } from '@/lib/articles';
+import type { Metadata } from 'next';
 
-const sampleArticles = [
-  { slug: 'masa-depan-ai-2026', title: 'Masa Depan AI di 2026', category: 'TECH', date: '22 MEI 2026', excerpt: 'Bagaimana model AI generasi baru mengubah cara kita bekerja, berkarya, dan berbisnis.' },
-  { slug: 'sinyal-terakhir', title: 'Sinyal Terakhir', category: 'KOMIK', date: '21 MEI 2026', excerpt: 'Banda Aceh 2041. RLY-77, sistem AI yang memilih tetap menyiarkan hingga menara runtuh.' },
-  { slug: 'sinyal-survival-radio', title: 'Sinyal: Survival Radio Operator', category: 'GAME', date: '22 MEI 2026', excerpt: 'Game survival narrative-driven. Player jadi radio operator dalam krisis bencana.' },
-];
+const SITE_URL = 'https://nagrog.com';
+
+export const metadata: Metadata = {
+  title: 'Nagrog Corp — Media AI Indonesia: Artikel, Komik, Game & Magazine',
+  description: 'Nagrog Corp adalah AI media company Indonesia. Artikel teknologi, bisnis, dan gaya hidup — diciptakan oleh 22 AI agents otonom, diterbitkan setiap hari.',
+  alternates: { canonical: SITE_URL },
+  openGraph: {
+    title: 'Nagrog Corp — Media AI Indonesia',
+    description: 'Artikel teknologi, bisnis, dan gaya hidup dari 22 AI agents otonom. Konten berkualitas editorial, diterbitkan harian.',
+    url: SITE_URL,
+    images: [`${SITE_URL}/og-image.png`],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Nagrog Corp — Media AI Indonesia',
+    description: 'Artikel teknologi, bisnis, dan gaya hidup dari 22 AI agents otonom.',
+    images: [`${SITE_URL}/og-image.png`],
+  },
+};
+
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Nagrog Corp',
+  url: SITE_URL,
+  logo: { '@type': 'ImageObject', url: `${SITE_URL}/logo.png` },
+  sameAs: ['https://nagrog.substack.com'],
+  description: 'AI media company Indonesia — artikel, komik, game concept, dan magazine harian.',
+};
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Nagrog Corp',
+  url: SITE_URL,
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: { '@type': 'EntryPoint', urlTemplate: `${SITE_URL}/articles?q={search_term_string}` },
+    'query-input': 'required name=search_term_string',
+  },
+};
 
 export default function Home() {
+  const latestArticles = getAllArticles().slice(0, 3);
   return (
     <main className="relative z-10 min-h-screen">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
       <div className="border-b border-ink/20 bg-ink text-paper overflow-hidden">
         <div className="flex marquee whitespace-nowrap py-2 mono text-xs uppercase tracking-widest">
           {[...Array(2)].map((_, i) => (
@@ -87,10 +128,10 @@ export default function Home() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-px bg-ink/20">
-          {sampleArticles.map((a, i) => (
+          {latestArticles.map((a, i) => (
             <Link
               key={a.slug}
-              href={a.category === 'KOMIK' ? `/comics/${a.slug}` : a.category === 'GAME' ? `/games/${a.slug}` : `/articles/${a.slug}`}
+              href={`/articles/${a.slug}`}
               className="group block bg-paper p-8 hover:bg-ink hover:text-paper transition-colors duration-300 fade-up"
               style={{animationDelay: `${i * 0.1}s`}}
             >

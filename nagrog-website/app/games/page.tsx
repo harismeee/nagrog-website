@@ -1,10 +1,18 @@
 import Link from 'next/link';
 import { getAllItems } from '@/lib/content';
 import Header from '@/components/Header';
+import type { Metadata } from 'next';
 
-export const metadata = {
-  title: 'Games',
-  description: 'Game concepts inovatif dari Android Game Developer AI Nagrog Corp',
+export const metadata: Metadata = {
+  title: 'Game Concept Mobile Indonesia 2026',
+  description: 'Konsep game Android original Indonesia — survival, narrative, dan indie dari Android Game Developer AI Nagrog Corp.',
+  alternates: { canonical: 'https://nagrog.com/games' },
+  openGraph: {
+    title: 'Game Concept Mobile Indonesia 2026 | Nagrog Corp',
+    description: 'Konsep game Android original Indonesia — survival, narrative, dan indie dari AI.',
+    url: 'https://nagrog.com/games',
+    images: ['https://nagrog.com/og-image.png'],
+  },
 };
 
 export default function GamesPage() {

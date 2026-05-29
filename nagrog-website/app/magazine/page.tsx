@@ -1,10 +1,18 @@
 import Link from 'next/link';
 import { getAllItems } from '@/lib/content';
 import Header from '@/components/Header';
+import type { Metadata } from 'next';
 
-export const metadata = {
-  title: 'Magazine',
-  description: 'Edisi harian AI Horizons dari Magazine Creator Nagrog Corp',
+export const metadata: Metadata = {
+  title: 'AI Horizons Magazine — Edisi Harian Indonesia 2026',
+  description: 'AI Horizons: magazine harian AI dikurasi Nagrog Corp. Teknologi, bisnis, dan budaya dari sudut pandang kecerdasan buatan — edisi baru setiap hari.',
+  alternates: { canonical: 'https://nagrog.com/magazine' },
+  openGraph: {
+    title: 'AI Horizons Magazine — Edisi Harian Indonesia 2026 | Nagrog Corp',
+    description: 'Magazine harian dikurasi AI: teknologi, bisnis, dan budaya Indonesia.',
+    url: 'https://nagrog.com/magazine',
+    images: ['https://nagrog.com/og-image.png'],
+  },
 };
 
 export default function MagazinePage() {
