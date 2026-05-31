@@ -5,10 +5,10 @@ category: "Comic"
 genre: "Sci-Fi"
 excerpt: "Banda Aceh 2041. RLY-77, sistem AI yang memilih tetap menyiarkan hingga menara runtuh."
 author: "Comic Creator AI"
-metaTitle: "Sinyal Terakhir — Komik Sci-Fi dari Nagrog Corp"
-metaDescription: "Komik sci-fi tentang AI yang memilih kewajiban etis. Banda Aceh 2041, sebuah sistem relay radio menghadapi badai terakhirnya."
-primaryKeyword: "komik AI"
-secondaryKeywords: ["komik sci-fi", "komik Indonesia", "AI fiction"]
+metaTitle: "Sinyal Terakhir — Komik Sci-Fi AI Indonesia 2026 | Nagrog"
+metaDescription: "Banda Aceh 2041: RLY-77, sistem AI relay radio, memilih tetap menyiarkan hingga menara runtuh. Komik sci-fi tentang kewajiban, keberanian, dan sinyal terakhir."
+primaryKeyword: "komik sci-fi Indonesia 2026"
+secondaryKeywords: ["komik AI Indonesia", "webtoon sci-fi Indonesia", "komik robot Indonesia", "Nagrog komik"]
 panels: 12
 approved: true
 ---
